@@ -1,0 +1,19 @@
+development:
+  adapter: postgresql
+  pool: 5
+  # these are our new parameters
+  encoding: UTF-8
+  database: contactbook
+  host: localhost
+  username: root
+  password: root
+
+test:
+  # this won't work 
+  adapter: postgresql
+  encoding: unicode
+  database: contactbook
+  pool: 5
+  username: root
+  password: root
+
